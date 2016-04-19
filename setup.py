@@ -12,8 +12,7 @@ def read(*parts):
 
 setup(
     name="ascntr",
-    use_scm_version=True,
-    setup_requires=['setuptools_scm'],
+    version="0.0.1b",
     url='https://github.com/ashwoods/ascntr',
     license='BSD',
     description="Small simple cron file task reader",
