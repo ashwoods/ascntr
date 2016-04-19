@@ -1,0 +1,12 @@
+30 1 /bin/run_me_daily
+45 * /bin/run_me_hourly
+* * /bin/run_me_every_minute
+* 19 /bin/run_me_sixty_times
+10 16 /bin/run_me_at_16_10
+10 * /bin/run_me_every_ten
+10 * /bin/run_me_every_hour_at_ten_past
+00 00 /bin/run_me_at_midnight
+* * /bin/run_me_now
+05 7 /bin/run_me_daily_at_7_05
+10 7 /bin/run_me_daily_at_7_10
+
