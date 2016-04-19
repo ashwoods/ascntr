@@ -9,16 +9,16 @@ ASCNTR is a small command line utility that can read a ASC File and output the n
 Install
 -------
 
-Install into your python environment of choice using pip:
+Install into your python environment of choice using pip from the parent folder:
 
-pip install http://github.com/ashwoods/ascntr#egg=ascntr
+pip install -e ./
 
 
 Usage
 -----
 
-Invoke the command by typing:
+Invoke the command by piping a config:
 
-ascntr [HH:SS] - stdin
+cat /path/to/config | ascntr CURRENT_TIME [HH:SS]
 
 
